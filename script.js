@@ -29,7 +29,7 @@ Promise.all([p1, p2, p3])
         console.timeEnd("Execution Time");
 
         let output = document.getElementById("output");
-        let loadingRow = document.getElementById("l_row");
+        let loadingRow = document.getElementById("loading");
 
         // Remove "Loading..." row
         if (loadingRow) loadingRow.remove();
